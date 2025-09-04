@@ -8,7 +8,7 @@ Custom plugin repository for FFXIV Dalamud plugins.
 2. Go to Experimental tab
 3. Add this URL to Custom Plugin Repositories:
    ```
-   https://raw.githubusercontent.com/kako5555/RPD/main/pluginmaster.json
+   https://raw.githubusercontent.com/kako5555/5555-plugins/main/pluginmaster.json
    ```
 4. Click the + button and ensure it's enabled
 5. Save and close settings
@@ -26,11 +26,12 @@ Automatically adjusts your retainer's market board prices to maintain competitiv
 ## Future Plugins
 This repository will host additional plugins as they are developed. All plugins will be available through the same repository URL.
 
-## Note for Developers
-To rename this repository on GitHub:
-1. Go to Settings > General
-2. Change repository name from "RPD" to your preferred name (e.g., "DalamudPlugins", "5555-plugins")
-3. Update the download links in pluginmaster.json to match the new repo name
+## Adding New Plugins
+To add a new plugin to this repository:
+1. Create a new folder in `plugins/YourPluginName/`
+2. Add your plugin ZIP file as `latest.zip`
+3. Add a new entry to `pluginmaster.json`
+4. Commit and push changes
 
 ## Support
 For issues or questions, please open an issue on GitHub.
