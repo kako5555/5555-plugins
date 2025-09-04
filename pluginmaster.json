@@ -9,10 +9,10 @@
     "RepoUrl": "https://github.com/kako5555/RPD",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
-    "DownloadLinkInstall": "https://github.com/kako5555/RPD/raw/main/latest.zip",
+    "DownloadLinkInstall": "https://github.com/kako5555/RPD/raw/main/plugins/RetainerPriceDrop/latest.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkTesting": "https://github.com/kako5555/RPD/raw/main/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/kako5555/RPD/raw/main/latest.zip"
+    "DownloadLinkTesting": "https://github.com/kako5555/RPD/raw/main/plugins/RetainerPriceDrop/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/kako5555/RPD/raw/main/plugins/RetainerPriceDrop/latest.zip"
   }
 ]
