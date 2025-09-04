@@ -1,0 +1,66 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "RetainerPriceDrop/1.1.3.0": {
+        "dependencies": {
+          "DalamudPackager": "2.1.13",
+          "PunishLib": "2.0.0.1"
+        },
+        "runtime": {
+          "RetainerPriceDrop.dll": {}
+        }
+      },
+      "DalamudPackager/2.1.13": {},
+      "ECommons/3.0.1.7": {
+        "runtime": {
+          "lib/net9.0-windows7.0/ECommons.dll": {
+            "assemblyVersion": "3.0.1.7",
+            "fileVersion": "3.0.1.7"
+          }
+        }
+      },
+      "PunishLib/2.0.0.1": {
+        "dependencies": {
+          "ECommons": "3.0.1.7"
+        },
+        "runtime": {
+          "PunishLib.dll": {
+            "assemblyVersion": "2.0.0.1",
+            "fileVersion": "2.0.0.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RetainerPriceDrop/1.1.3.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DalamudPackager/2.1.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rMN1omGe8536f4xLMvx9NwfvpAc9YFFfeXJ1t4P4PE6Gu8WCIoFliR1sh07hM+bfODmesk/dvMbji7vNI+B/pQ==",
+      "path": "dalamudpackager/2.1.13",
+      "hashPath": "dalamudpackager.2.1.13.nupkg.sha512"
+    },
+    "ECommons/3.0.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xJZnp4dlnGGlmIU7z0851tpmZjVlBSOLC/OOuT2bJoj5+5/gMCO4/DhORensmlR2/dNyn/c5ZrNBSCVI/3aJHg==",
+      "path": "ecommons/3.0.1.7",
+      "hashPath": "ecommons.3.0.1.7.nupkg.sha512"
+    },
+    "PunishLib/2.0.0.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net9.0-windows7.0": {
+      "ECommons": {
+        "type": "Direct",
+        "requested": "[3.0.1.7, )",
+        "resolved": "3.0.1.7",
+        "contentHash": "xJZnp4dlnGGlmIU7z0851tpmZjVlBSOLC/OOuT2bJoj5+5/gMCO4/DhORensmlR2/dNyn/c5ZrNBSCVI/3aJHg=="
+      }
+    }
+  }
+}

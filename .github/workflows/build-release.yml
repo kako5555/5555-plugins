@@ -1,0 +1,46 @@
+name: Build Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: recursive
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
+    
+    - name: Restore dependencies
+      run: dotnet restore
+    
+    - name: Build Release
+      run: dotnet build --configuration Release --no-restore
+    
+    - name: Create Release Package
+      run: |
+        $version = "${{ github.ref_name }}".TrimStart('v')
+        $releaseName = "RetainerPriceDrop_v$version"
+        New-Item -ItemType Directory -Force -Path $releaseName
+        Copy-Item -Path "RetainerPriceDrop\bin\Release\net8.0-windows\*" -Destination $releaseName -Recurse
+        Copy-Item -Path "RetainerPriceDrop\RetainerPriceDrop.json" -Destination $releaseName
+        Compress-Archive -Path $releaseName -DestinationPath "$releaseName.zip"
+        echo "RELEASE_NAME=$releaseName" >> $env:GITHUB_ENV
+      shell: pwsh
+    
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: ${{ env.RELEASE_NAME }}.zip
+        generate_release_notes: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
