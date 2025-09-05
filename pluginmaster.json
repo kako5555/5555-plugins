@@ -1,18 +1,26 @@
 [
   {
     "Author": "kako5555",
-    "Name": "RetainerPriceDrop",
+    "Name": "Retainer Price Drop",
     "Punchline": "Auto-adjust retainer prices to undercut competition",
     "Description": "Automatically adjusts your retainer's market board prices to maintain competitive pricing. Monitors your listings and updates prices when undercut.",
+    "Changelog": "",
     "InternalName": "RetainerPriceDrop",
     "AssemblyVersion": "1.1.3.0",
     "RepoUrl": "https://github.com/kako5555/5555-plugins",
     "ApplicableVersion": "any",
+    "CategoryTags": [
+      "utility"
+    ],
     "DalamudApiLevel": 13,
+    "IconUrl": "",
+    "ImageUrls": [],
     "DownloadLinkInstall": "https://github.com/kako5555/5555-plugins/raw/main/plugins/RetainerPriceDrop/latest.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadLinkTesting": "https://github.com/kako5555/5555-plugins/raw/main/plugins/RetainerPriceDrop/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/kako5555/5555-plugins/raw/main/plugins/RetainerPriceDrop/latest.zip"
+    "DownloadLinkUpdate": "https://github.com/kako5555/5555-plugins/raw/main/plugins/RetainerPriceDrop/latest.zip",
+    "DownloadCount": 0,
+    "LastUpdate": "1735940400"
   }
 ]
