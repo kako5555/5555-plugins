@@ -17,5 +17,24 @@
     "DownloadLinkTesting": "https://github.com/kako5555/5555-plugins/raw/main/plugins/RetainerPriceDrop/latest.zip",
     "DownloadLinkUpdate": "https://github.com/kako5555/5555-plugins/raw/main/plugins/RetainerPriceDrop/latest.zip",
     "LastUpdate": "1735940400"
+  },
+  {
+    "Author": "kako5555",
+    "Name": "AutoExtract",
+    "Description": "Simple plugin to auto-extract materia when 100% spirit bonded. Use /autoextract to configure.",
+    "InternalName": "AutoExtract",
+    "AssemblyVersion": "1.0.0.0",
+    "TestingAssemblyVersion": null,
+    "RepoUrl": "https://github.com/kako5555/5555-plugins",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 13,
+    "Punchline": "Automatically extract materia from equipment with 100% spiritbond.",
+    "IconUrl": "https://raw.githubusercontent.com/kako5555/5555-plugins/main/plugins/AutoExtract/icon.png",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/kako5555/5555-plugins/raw/main/plugins/AutoExtract/latest.zip",
+    "DownloadLinkTesting": "https://github.com/kako5555/5555-plugins/raw/main/plugins/AutoExtract/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/kako5555/5555-plugins/raw/main/plugins/AutoExtract/latest.zip",
+    "LastUpdate": "1736775600"
   }
 ]

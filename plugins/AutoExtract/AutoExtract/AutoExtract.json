@@ -1,0 +1,20 @@
+{
+  "Author": "kako5555",
+  "Name": "AutoExtract",
+  "InternalName": "AutoExtract",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Simple plugin to auto-extract materia when 100% spirit bonded. Use /autoextract to configure.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "materia",
+    "extraction",
+    "automation"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Automatically extract materia from equipment with 100% spiritbond.",
+  "AcceptsFeedback": true
+}
