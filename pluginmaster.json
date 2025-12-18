@@ -8,7 +8,7 @@
     "TestingAssemblyVersion": null,
     "RepoUrl": "https://github.com/kako5555/5555-plugins",
     "ApplicableVersion": "any",
-    "DalamudApiLevel": 14,
+    "DalamudApiLevel": 13,
     "Punchline": "Drop all retainer prices with one click",
     "IconUrl": "https://raw.githubusercontent.com/kako5555/5555-plugins/main/plugins/RetainerPriceDrop/icon.png",
     "IsHide": false,
