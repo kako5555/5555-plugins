@@ -2,20 +2,20 @@
   {
     "Author": "kako5555",
     "Name": "Retainer Price Drop",
-    "Description": "Adds a 'Lower Prices' button to each retainer that automatically adjusts all their market listings by a set amount.",
+    "Description": "Automatically undercut your retainers' market listings — one retainer at a time, or every eligible retainer at once with 'Drop Prices for All'. HQ-aware pricing, a configurable undercut amount and re-pricing cooldown, and it skips your own listings so you never undercut yourself.",
     "InternalName": "RetainerPriceDrop",
-    "AssemblyVersion": "1.1.7.0",
+    "AssemblyVersion": "1.2.0.0",
     "TestingAssemblyVersion": null,
     "RepoUrl": "https://github.com/kako5555/5555-plugins",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
-    "Punchline": "Drop all retainer prices with one click",
+    "Punchline": "Undercut all your retainer market prices in one click",
     "IconUrl": "https://raw.githubusercontent.com/kako5555/5555-plugins/main/plugins/RetainerPriceDrop/icon.png",
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadLinkInstall": "https://github.com/kako5555/5555-plugins/raw/main/plugins/RetainerPriceDrop/latest.zip",
     "DownloadLinkTesting": "https://github.com/kako5555/5555-plugins/raw/main/plugins/RetainerPriceDrop/latest.zip",
     "DownloadLinkUpdate": "https://github.com/kako5555/5555-plugins/raw/main/plugins/RetainerPriceDrop/latest.zip",
-    "LastUpdate": "1777932923"
+    "LastUpdate": "1783624612"
   }
 ]
